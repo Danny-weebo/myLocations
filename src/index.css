@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  margin: 1rem 0 0 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+.wrap {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.flex {
+  display: flex;
+}
+
+label.newCategory {
+  margin: 0 1rem;
+}
+
+
+h1 {
+  color: rgb(0, 188, 212);
+}
+
+section.halfHalf {
+  display: flex;
+  width: 100%;
+}
+section.halfHalf section.halfLeft {
+  width: 50%;
+  margin-right: 5rem;
+}
+section.halfHalf section.halfRight {
+  width: 50%;
+}
+
+.chip {
+  margin-right: 5px !important;
+  display: inline-flex !important;
+}
+
+.groupedTrow input, .groupedTrow svg, .groupedTbody input, .groupedTbody svg {
+  display: none !important;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.footerForm {
+  float: right;
+}
+
+a.footerButton {
+  text-align: center;
+}
